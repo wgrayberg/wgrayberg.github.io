@@ -1,0 +1,32 @@
+h1 {
+    color: maroon;
+}
+h2 {
+    color: green;
+}
+.color {
+    color: orangered;
+}
+.foodfcw {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.favfoodtext {
+    color: brown;
+    margin-left: 25px;
+}
+.random {
+    color:chocolate;
+    margin-top: 200px;
+}
+.venge {
+    color: blue;
+    margin-left: 500px;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: black;
+    font-size: 50px;
+}
