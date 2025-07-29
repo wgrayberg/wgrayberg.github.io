@@ -19,7 +19,7 @@ h2 {
     color:chocolate;
     margin-top: 200px;
 }
-.venge {
+a {
     color: blue;
     margin-left: 500px;
 }
@@ -29,4 +29,10 @@ a:visited {
 a:hover {
     color: black;
     font-size: 50px;
+}
+.emailhehe {
+    color: cadetblue;
+}
+body {
+    background-color: goldenrod;
 }
