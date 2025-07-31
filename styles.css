@@ -20,8 +20,21 @@ h2 {
     margin-top: 200px;
 }
 a {
-    color: blue;
-    margin-left: 500px;
+  text-decoration: none;
+  color: #007BFF;
+  position: relative;
+}
+a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007BFF;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
 }
 a:visited {
     color: red;
@@ -29,9 +42,6 @@ a:visited {
 a:hover {
     color: black;
     font-size: 50px;
-}
-.emailhehe {
-    color: cadetblue;
 }
 body {
     background-color: goldenrod;
@@ -43,13 +53,22 @@ body {
     
 }
 .click {
-    color: red;
+    color: #ff5500;
+    padding: 10px 20px;
     background-color: black;
+    border: none;
+    border-radius: 999px; /* Fully rounded */
+    cursor: pointer;
 }
 .lavnerbtn {
-    color: orangered;
-    background-color: burlywood;
+    color: black;
+    padding: 10px 20px;
+    background-color: #ff5500;
+    border: none;
+    border-radius: 999px; /* Fully rounded */
+    cursor: pointer;
 }
+
 #clock {
     color: green;
     font-style: italic;
@@ -69,4 +88,14 @@ body {
         transform: translate(0);
         opacity: 1;
     }
+}
+#clock {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2em;
+  color: #00bcd4;
+  background: #121212;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,188,212,0.6);
+  letter-spacing: 2px;
 }
