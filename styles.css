@@ -48,24 +48,8 @@ body {
 .w {
     font-size: 70px;
     position: relative;
-    animation: slideInFromLeft 2.5s ease-out forwards;
+    animation: slideInFromLeft 2s ease-out forwards;
     
-}
-.click {
-    color: #ff5500;
-    padding: 10px 20px;
-    background-color: black;
-    border: none;
-    border-radius: 999px; /* Fully rounded */
-    cursor: pointer;
-}
-.lavnerbtn {
-    color: black;
-    padding: 10px 20px;
-    background-color: #ff5500;
-    border: none;
-    border-radius: 999px; /* Fully rounded */
-    cursor: pointer;
 }
 
 #clock {
@@ -97,4 +81,80 @@ body {
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,188,212,0.6);
   letter-spacing: 2px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button {
+    transform: translateX(10px); /* move right by 10px */
+}
+.click {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: orangered;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.click:hover {
+    transform: translateX(10px); /* move right by 10px */
+}
+.lavnerbtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orangered;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.lavnerbtn:hover {
+    transform: translateX(10px); /* move right by 10px */
+}
+.vengeBtnGames {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: orangered;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.vengeBtnGames:hover {
+    transform: translateX(10px); /* move right by 10px */
+}
+.robloxBtnGames {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: orangered;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.robloxBtnGames:hover {
+    transform: translateX(10px); /* move right by 10px */
+}
+.ntbimg {
+    width: 500px;
+    height: 250px;
 }
