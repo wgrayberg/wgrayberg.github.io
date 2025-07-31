@@ -8,9 +8,10 @@
 </head>
 <body onload="startTime()">
     <nav>
-        <a href="index.html" class="homepage">Home</a>
-        <a href="nextPage.html" class="secondpage">Second Page (Random)</a>
-        <a href="games.html" class="gamespage">Gaming</a>
+        <a href="index.html" class="homepage">Home</a> |
+        <a href="nextPage.html" class="secondpage">Second Page (Random)</a> |
+        <a href="games.html" class="gamespage">Gaming</a> |
+        <a href="growagarden.html" class="gagpage">Grow A Garden</a>
     </nav>
     <h2>Current Time:</h2>
     <div id="clock"></div>
@@ -35,7 +36,24 @@
             }
         </script>
     </div>
-
+    <div>
+        <input type="button" value="My Roblox Profile" class="myRblxProfile" onclick="rblxProfile()">
+        <script>
+            function rblxProfile() {
+                document.getElementsByClassName("myRblxProfile");
+                window.open("https://www.roblox.com/users/4170396493/profile?friendshipSourceType=PlayerSearch");
+            }
+        </script>
+    </div>
+    <div>
+        <input type="button" value="Grow A Garden Roblox" class="gagRblx" onclick="growGardenPage()">
+        <script>
+            function growGardenPage() {
+                document.getElementsByClassName("gagRblx");
+                window.open("https://www.roblox.com/games/126884695634066/Grow-a-Garden");
+            }
+        </script>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -1,8 +1,10 @@
 h1 {
     color: maroon;
+    text-align: center;
 }
 h2 {
     color: green;
+    text-align: center;
 }
 .color {
     color: orangered;
@@ -48,7 +50,7 @@ body {
 .w {
     font-size: 70px;
     position: relative;
-    animation: slideInFromLeft 2s ease-out forwards;
+    animation: slideInFromLeft 0.75s ease-out forwards;
     
 }
 
@@ -56,6 +58,7 @@ body {
     color: green;
     font-style: italic;
     font-size: 40px;
+    text-align: center;
 }
 .hellowrld {
     position: relative;
@@ -157,4 +160,89 @@ button {
 .ntbimg {
     width: 500px;
     height: 250px;
+}
+.myRblxProfile {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: orangered;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.myRblxProfile:hover {
+    transform: translateX(10px); /* move right by 10px */
+}
+.gagRblx {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: orangered;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gagRblx:hover {
+    transform: translateX(10px); /* move right by 10px */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: goldenrod;
+}
+
+nav {
+    background-color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #ffd700; /* gold-ish highlight */
+}
+
+  /* Responsive: stack links on smaller screens */
+@media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+}
+.wgraybergfooter {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: orangered;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
 }
