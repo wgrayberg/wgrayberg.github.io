@@ -39,6 +39,7 @@ body {
 .w {
     font-size: 70px;
     position: relative;
+    animation: slideInFromLeft 2.5s ease-out forwards;
     
 }
 .click {
@@ -53,4 +54,19 @@ body {
     color: green;
     font-style: italic;
     font-size: 40px;
+}
+.hellowrld {
+    position: relative;
+    animation: slideInFromLeft 1s ease-out forwards;
+    font-size: 50px;
+}
+@keyframes slideInFromLeft {
+    from {
+        transform: translate(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
 }
