@@ -36,3 +36,21 @@ a:hover {
 body {
     background-color: goldenrod;
 }
+.w {
+    font-size: 70px;
+    position: relative;
+    
+}
+.click {
+    color: red;
+    background-color: black;
+}
+.lavnerbtn {
+    color: orangered;
+    background-color: burlywood;
+}
+#clock {
+    color: green;
+    font-style: italic;
+    font-size: 40px;
+}

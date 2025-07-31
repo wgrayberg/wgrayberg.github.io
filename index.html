@@ -6,13 +6,13 @@
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body onload="startTime()">
     <h1>Hello World</h1>
-    <h2>I'm William. I am a person that lives in the world. I don't have fun facts.</h3>
-    <h3 class="color">My favorite color is orange.</h4>
+    <h2 class="w">I'm <em>William</em>. I am a person that lives in the world. I don't have fun facts.</h2>
+    <h3 class="color">My favorite color is <i>orange</i>.</h3>
     <img class="foodfcw" src="https://hips.hearstapps.com/vidthumb/images/delish-fried-chicken-wings-seo-1new-1540589238.jpg?crop=0.798xw:0.709xh;0.0513xw,0.142xh&resize=1200:*" alt="Fried Chicken Wings" height="100" width="200">
     <h3 class="favfoodtext">I love Fried Chicken. And Fried Chicken Wings.</h3>
-    <h3 class="random">random</h3>
+    <h3 class="random"><ins><strong><i>random</i></strong></ins></h3>
     <div>
         <a class="venge" href="https://venge.io/">Try Venge right now. Aidan made it.</a>
     </div>
@@ -25,5 +25,38 @@
     <div class="emailhehe">
         <a href="mailto:wgrayberg@gmail.com">Email me hehehehehehehhehehe</a>
     </div>
+    <input onclick="vengeClick()" type="button" value="Click, you should." class="click" href="https://venge.io/">
+    <script>
+        function vengeClick() {
+            document.getElementsByClassName("click");
+            window.open("https://venge.io/");
+        }
+    </script>
+    <input onclick="lavnerBtn()" type="button" value="Lavner Camps and Education" class="lavnerbtn">
+    <script>
+        function lavnerBtn() {
+            document.getElementsByClassName("laverbtn")
+            window.open("https://lavnercampsandprograms.com")
+        }
+    </script>
+    <h2>Current Time:</h2>
+    <div id="clock"></div>
+    <script>
+        function startTime() {
+            const today = new Date();
+            let h = today.getHours();
+            let m = today.getMinutes();
+            let s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
+            setTimeout(startTime, 1000);
+        }
+
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};
+            return i;
+        }
+    </script>
 </body>
 </html>
