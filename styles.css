@@ -202,6 +202,7 @@ nav {
     padding: 1rem 2rem;
     border-radius: 20px;
     text-align: center;
+    color: white;
 }
 
 nav ul {
@@ -244,5 +245,16 @@ nav ul li a:hover {
     border-radius: 4px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    text-align: center;
+}
+.gagh3embed {
+    color: green;
+    text-align: center;
+}
+.gagh4embed {
+    color: green;
+    text-align: center;
+}
+.updatetxt {
     text-align: center;
 }
