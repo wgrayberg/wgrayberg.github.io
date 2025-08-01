@@ -203,6 +203,7 @@ nav {
     border-radius: 20px;
     text-align: center;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav ul {
@@ -256,5 +257,9 @@ nav ul li a:hover {
     text-align: center;
 }
 .updatetxt {
+    text-align: center;
+}
+.placeholdertestdocbio {
+    color: green;
     text-align: center;
 }
